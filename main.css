@@ -1,3 +1,20 @@
 * {
     font-family: sans-serif;
 }
+
+#hyperlinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#hyperlinks > li {
+    float: left;
+}
+
+#hyperlinks > li a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    color: blue;
+}
